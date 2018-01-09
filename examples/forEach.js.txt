@@ -1,0 +1,12 @@
+var languages = ['NodeJS', 'PHP', 'Java', 'Python'];
+
+//traditional loop
+for(var i = 0; i < languages.length; i++){
+	console.log(languages[i]);
+}
+
+
+//forEach loop
+languages.forEach(function(language){
+	console.log(language);
+})
