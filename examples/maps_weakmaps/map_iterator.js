@@ -11,3 +11,11 @@ cities.get(2);
 for(var keys of cities.keys()){
   console.log(keys);
 }
+
+for(var values of cities.values()){
+  console.log(values);
+}
+
+for(var entries of cities.entries()){
+  console.log(entries);
+}
