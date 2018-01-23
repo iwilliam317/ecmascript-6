@@ -45,3 +45,23 @@ var dobrar = numeros.map(function(numero){
 })
 
 console.log(dobrar)
+
+
+
+//Exercício 3 - NÃO ESTOU BRAVO
+//Escreva o método caps que recebe um array de strings e retorna um outro array com todas as strings do array original em CAIXA ALTA.
+
+//Exemplo: caps(['oi', 'tudo', 'bem?']) → ['OI', 'TUDO', 'BEM?']
+
+function caps(arrayString){
+  var capslock = [];
+  capslock = arrayString.map(function(msg){
+    return msg.toUpperCase();
+  })
+  
+  return capslock;
+}
+
+var arrayString = caps(['oi', 'tudo', 'bem?']);
+
+console.log(arrayString);
