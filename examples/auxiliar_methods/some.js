@@ -16,3 +16,23 @@ var isRomanceMovie = movies.some(function(movie){
 });
 
 console.log(isRomanceMovie);
+
+
+var cars = [
+  {name: 'A', year: 2001},
+  {name: 'B', year: 1999},
+  {name: 'C', year:2018}
+  ]
+  
+function isThereCarAfter2017(cars){
+  return  carAfter2017 = cars.some(function(car){
+    return car.year > 2017
+  })
+}
+
+
+console.log(isThereCarAfter2017(cars));
+
+cars.pop();
+
+console.log(isThereCarAfter2017(cars));
