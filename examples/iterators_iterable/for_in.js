@@ -7,5 +7,5 @@ var person = {
 }
 
 for(var attribute in person){
-  console.log(person[attribute]);
+  console.log(attribute +': '+person[attribute]);
 }
