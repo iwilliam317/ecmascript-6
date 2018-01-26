@@ -17,3 +17,45 @@ playlist.delete(music3)
 for(var music of playlist){
   console.log(music)
 }
+
+
+
+
+
+function Person(name, age, gender){
+  this._name = name;
+  this._age = age;
+  this._gender = gender;
+}
+
+Person.prototype.getName = function(){
+  return this._name;
+}
+
+Person.prototype.getAge = function(){
+  return this._age;
+}
+
+Person.prototype.getGender = function(){
+  return this._gender;
+}
+
+var william = new Person('William', 28, 'Male');
+var bruna = new Person('Bruna', 31, 'Female');
+var juliano = new Person('Juliano', 28, 'Male');
+var raquel = new Person('Raquel', 29, 'Female');
+
+
+var collection = new Set();
+
+collection.add(raquel.getName());
+collection.add(william.getName());
+collection.add(william.getName());
+collection.add(bruna.getName());
+collection.add(juliano.getName());
+collection.add(raquel.getName());
+
+
+for(var p of collection){
+  console.log(p)
+}
