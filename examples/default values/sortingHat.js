@@ -3,4 +3,3 @@ const chapeuSeletor = (aluno='Aluno', casas = ['Grifinória', 'Lufa-Lufa', 'Corv
 
 console.log(chapeuSeletor());
 console.log(chapeuSeletor('william'));
-
