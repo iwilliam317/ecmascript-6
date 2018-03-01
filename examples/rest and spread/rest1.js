@@ -3,7 +3,7 @@ function sum(...values){
   let outcome = 0;
   
   for(var i=0; i<values.length; i++){
-    outcome += outcome + values[i];
+    outcome = outcome + values[i];
   }
   console.log(`Outcome: ${outcome}`)
 }
