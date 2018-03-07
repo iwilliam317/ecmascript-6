@@ -3,4 +3,4 @@ let list2 = ['meat', 'soda'];
 
 let list = [...list1, ...list2];
 
-console.log(list)
+console.log(list);
