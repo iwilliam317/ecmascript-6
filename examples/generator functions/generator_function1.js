@@ -8,13 +8,21 @@ function* packageDelivery(){
 }
 
 const delivery = packageDelivery();
+//rustic iterator
 // console.log(delivery.next())
 // console.log(delivery.next())
 // console.log(delivery.next())
 // console.log(delivery.next())
 
-let next = delivery.next();
-while(!next.done){
-  console.log(next);
-  next = delivery.next();
+
+//improved
+// let next = delivery.next();
+// while(!next.done){
+//   console.log(next);
+//   next = delivery.next();
+// }
+
+// easiest way
+for(let step of delivery){
+  console.log(step)
 }
