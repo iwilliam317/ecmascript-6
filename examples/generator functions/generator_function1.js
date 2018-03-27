@@ -8,7 +8,13 @@ function* packageDelivery(){
 }
 
 const delivery = packageDelivery();
-console.log(delivery.next())
-console.log(delivery.next())
-console.log(delivery.next())
-console.log(delivery.next())
+// console.log(delivery.next())
+// console.log(delivery.next())
+// console.log(delivery.next())
+// console.log(delivery.next())
+
+let next = delivery.next();
+while(!next.done){
+  console.log(next);
+  next = delivery.next();
+}
