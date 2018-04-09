@@ -12,4 +12,4 @@ let promise = new Promise((resolve, reject) => {
 promise.then((data) => console.log(data));
 promise.catch((data) => console.log(data));
 
-// it is not necessary the usage of arrow function
+// note: it is not necessary the usage of arrow function
