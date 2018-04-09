@@ -1,5 +1,5 @@
 let promise = new Promise((resolve, reject) => {
-  let result = false;
+  let result = true;
   
   if(result){
     resolve("everything is ok..")
@@ -11,3 +11,5 @@ let promise = new Promise((resolve, reject) => {
 
 promise.then((data) => console.log(data));
 promise.catch((data) => console.log(data));
+
+// it is not necessary the usage of arrow function
