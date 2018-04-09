@@ -26,3 +26,9 @@ var isRomanceMovie = movies.some(function(movie){
 });
 
 console.log('s there any romance movie? '+isRomanceMovie);
+
+
+
+let evenNumbers = [2,4,6];
+
+console.log( evenNumbers.every((number) => number % 2==0 ) )
