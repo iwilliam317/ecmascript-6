@@ -16,6 +16,7 @@ async function start(){
   console.log('taking a break..')
   await sleep(750);
   await sleep(1000);
+  console.log('awaiting for promise to be finished');
 }
 
 start();
